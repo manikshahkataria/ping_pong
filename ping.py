@@ -1,5 +1,4 @@
-# Simple Pong in Python 3 for Beginners
-# By @TokyoEdTech
+
 
 import turtle
 import os
@@ -39,7 +38,7 @@ ball.shape("square")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 0.3
+ball.dx = 0.3 # adjust if ball is moving fast or slow
 ball.dy = 0.3
 
 # Pen
